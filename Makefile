@@ -1,7 +1,7 @@
-.PHONY: all echo counter loops mirror pointer spellbook clean
+.PHONY: all echo counter loops mirror pointer spellbook crystals forge clean
 
 # Build and run all modules
-all: echo counter loops mirror pointer spellbook
+all: echo counter loops mirror pointer spellbook crystals forge
 
 # Echoes from the Void
 echo:
@@ -33,6 +33,14 @@ spellbook:
 	$(MAKE) -C struct_scroll ritual
 	$(MAKE) -C struct_scroll summon
 
+crystals:
+	$(MAKE) -C dynamic_depths ritual
+	$(MAKE) -C dynamic_depths summon
+
+forge:
+	$(MAKE) -C function_forge ritual
+	$(MAKE) -C function_forge summon
+
 # Clean all builds
 clean:
 	$(MAKE) -C echoes_from_the_void clean
@@ -41,6 +49,8 @@ clean:
 	$(MAKE) -C memory_mirror clean
 	$(MAKE) -C pointers_path clean
 	$(MAKE) -C struct_scroll clean
+	$(MAKE) -C dynamic_depths clean
+	$(MAKE) -C function_forge clean
 
 # Usage:
 #   make echo 		# Build and run Echoes from the Void
@@ -49,5 +59,8 @@ clean:
 #   make mirror     # Build and run Memory Mirror
 #   make pointer    # Build and run Pointer Binding
 #   make spellbook  # Build and run Spellbook
+#   make crystals   # Build and run Dynamic Depths
+#   make forge      # Build and run Function Forge
+
 #   make all 		# Build and run both modules
 #   make clean 		# Clean all builds
