@@ -1,13 +1,17 @@
 # 🧙‍♂️ C Adventure Campaign Log
 
+## Prologue: Mystic Counter
+- ✅ Created a prompt for used to input a number
+- ✅ Looped through the scanned value. 
+- ✅ Printed each number in sequence until target number reached
+
 ## Chapter 1: Echoes from the Void
 - ✅ Created `echo.c` to learn basic input/output
 - ✅ Learned how to use `printf` and `scanf`
 - ✅ Stored user input in a `char[]` array
 - 🧪 Bonus challenge: Add full name support
 
-## Chapter 2: Coming Soon — The Looping Labyrinth
-
+## Chapter 2: The Looping Labyrinth
 - ✅ Implemented `for`, `while`, and `do-while` loops
 - ✅ Practiced counting rituals with different control flows
 - 🧪 Bonus challenge: Add input validation for positive numbers
@@ -26,7 +30,7 @@
 ## Chapter 5: The Struct Scroll
 - ✅ Defined a custom `struct` to group spell data
 - ✅ Accessed and printed struct members
-- 🧪 Bonus challenge: Create an array of spells and display them
+- ✅ Bonus challenge: Create an array of spells and display them
 
 ## Chapter 6: The Dynamic Depths
 - ✅ Allocated memory dynamically using `malloc`
@@ -39,3 +43,9 @@
 - ✅ Passed arguments by value and by pointer
 - ✅ Modified memory across function boundaries
 - 🧪 Bonus challenge: Calculate and compare spell efficiency
+
+## Chapter 8: The File Familiar
+- ✅ Wrote spell data to a file using `fprintf`
+- ✅ Read spell data from a file using `fscanf`
+- ✅ Used file pointers and modes to manage disk access
+- 🧪 Bonus challenge: Append user-created spells to the file

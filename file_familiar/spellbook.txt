@@ -1,0 +1,3 @@
+Fireball 75 20
+Ice Lance 60 15
+Arcane Bolt 50 10

@@ -11,5 +11,5 @@ The apprentice now inscribes their own scrolls — crafting custom types that bi
 - `strcpy` — copying strings into struct fields
 - Dot notation (`fireball.power`) — accessing struct members
 
-**Bonus Challenge:**  
+✅ **Bonus Challenge:**  
 Create an array of `Spell` structs and loop through them to display a full spellbook.
