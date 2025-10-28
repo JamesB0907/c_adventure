@@ -25,7 +25,7 @@
 - ✅ Declared and used a pointer to access memory
 - ✅ Modified a variable via its pointer
 - ✅ Printed memory addresses and dereferenced values
-- 🧪 Bonus challenge: Create a function that modifies values via pointer
+- ✅ Bonus challenge: Create a function that modifies values via pointer
 
 ## Chapter 5: The Struct Scroll
 - ✅ Defined a custom `struct` to group spell data
@@ -36,7 +36,7 @@
 - ✅ Allocated memory dynamically using `malloc`
 - ✅ Filled and reviewed a dynamic array
 - ✅ Released memory using `free`
-- 🧪 Bonus challenge: Accept custom values and sort the 
+- ✅ Bonus challenge: Accept custom values and sort the 
 
 ## Chapter 7: The Function Forge
 - ✅ Defined and used reusable functions

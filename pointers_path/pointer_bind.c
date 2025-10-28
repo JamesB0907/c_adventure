@@ -14,5 +14,17 @@ int main() {
     printf("🔮 New spell power: %d\n", spell_power); // Show the updated spell power
     printf("✨ Verified via pointer: %d\n", *ptr); // Dereference the pointer again to show the updated value
 
+    printf("Which spell would you like to reforge? Input its power level: ");
+    int target_spell;
+    scanf("%d", &target_spell); // Read an integer input for the target spell power
+    reforge_target_spell(&target_spell, 77); // Pass the address of target_spell to the function
+    printf("🔮 Target spell has been reforged to power: %d\n", target_spell);
     return 0; // Indicate that the program ended successfully
+}
+
+// Bonus Challenge:  
+// Create a function that takes a pointer and modifies the value it points to. Use it to reforge multiple spell powers.
+
+void reforge_target_spell(int* spell_ptr, int new_power) {
+    *spell_ptr = new_power; // Modify the value at the address pointed to by spell_ptr
 }
