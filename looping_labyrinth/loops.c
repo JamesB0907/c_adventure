@@ -26,5 +26,23 @@ int main() {
     } while (k <= limit);
 
     printf("\n✅ The ritual is complete, apprentice!\n");
+    validate_input();
     return 0; // Indicate that the program ended successfully
+}
+
+// Bonus Challenge: 
+// Add input validation: if the user enters a number less than 1, prompt them again until they enter a valid number.
+
+int validate_input() {
+    int num;
+    printf("🔮 Apprentice, how many steps shall we take? ");
+    scanf("%d", &num);
+    if (num < 1) {
+        printf("⚠️ Please enter a number greater than 0.\n");
+        return validate_input(); // Recursively call until valid input is received
+    }
+    for (int i = 1; i <= num; i++) {
+        printf(" Step %d\n", i);
+        i++;
+    }
 }

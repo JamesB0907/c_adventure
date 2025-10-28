@@ -9,17 +9,17 @@
 - ✅ Created `echo.c` to learn basic input/output
 - ✅ Learned how to use `printf` and `scanf`
 - ✅ Stored user input in a `char[]` array
-- 🧪 Bonus challenge: Add full name support
+- ✅ Bonus challenge: Add full name support
 
 ## Chapter 2: The Looping Labyrinth
 - ✅ Implemented `for`, `while`, and `do-while` loops
 - ✅ Practiced counting rituals with different control flows
-- 🧪 Bonus challenge: Add input validation for positive numbers
+- ✅ Bonus challenge: Add input validation for positive numbers
 
 ## Chapter 3: The Memory Mirror
 - ✅ Created an array to store 5 spell powers
 - ✅ Used loops to fill and review the array
-- 🧪 Bonus challenge: Add dynamic array sizing with input validation
+- ✅ Bonus challenge: Add dynamic array sizing with input validation
 
 ## Chapter 4: The Pointer’s Path
 - ✅ Declared and used a pointer to access memory
@@ -49,3 +49,16 @@
 - ✅ Read spell data from a file using `fscanf`
 - ✅ Used file pointers and modes to manage disk access
 - 🧪 Bonus challenge: Append user-created spells to the file
+
+## Chapter 9: The Linked Labyrinth
+- ✅ Created a self-referential `struct` for linked entities
+- ✅ Allocated and linked multiple nodes
+- ✅ Traversed the chain with a loop
+- ✅ Released memory manually
+- 🧪 Bonus challenge: Add new entities interactively and expand the chain
+
+## Chapter 10: The Pointer Paradox
+- ✅ Created a circular reference with pointers
+- ✅ Traversed the loop with a step limit
+- ✅ Broke the loop manually before freeing memory
+- 🧪 Bonus challenge: Detect circular references automatically
